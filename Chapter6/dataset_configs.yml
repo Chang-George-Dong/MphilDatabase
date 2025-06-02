@@ -1,0 +1,768 @@
+ACSF1:
+  length: '1460'
+  num_classes: 10
+  test: 100
+  train: 100
+  type: Device
+Adiac:
+  length: '176'
+  num_classes: 37
+  test: 391
+  train: 390
+  type: Image
+AllGestureWiimoteX:
+  length: Vary
+  num_classes: 10
+  test: 700
+  train: 300
+  type: Sensor
+AllGestureWiimoteY:
+  length: Vary
+  num_classes: 10
+  test: 700
+  train: 300
+  type: Sensor
+AllGestureWiimoteZ:
+  length: Vary
+  num_classes: 10
+  test: 700
+  train: 300
+  type: Sensor
+ArrowHead:
+  length: '251'
+  num_classes: 3
+  test: 175
+  train: 36
+  type: Image
+BME:
+  length: '128'
+  num_classes: 3
+  test: 150
+  train: 30
+  type: Simulated
+Beef:
+  length: '470'
+  num_classes: 5
+  test: 30
+  train: 30
+  type: Spectro
+BeetleFly:
+  length: '512'
+  num_classes: 2
+  test: 20
+  train: 20
+  type: Image
+BirdChicken:
+  length: '512'
+  num_classes: 2
+  test: 20
+  train: 20
+  type: Image
+CBF:
+  length: '128'
+  num_classes: 3
+  test: 900
+  train: 30
+  type: Simulated
+Car:
+  length: '577'
+  num_classes: 4
+  test: 60
+  train: 60
+  type: Sensor
+Chinatown:
+  length: '24'
+  num_classes: 2
+  test: 343
+  train: 20
+  type: Traffic
+ChlorineConcentration:
+  length: '166'
+  num_classes: 3
+  test: 3840
+  train: 467
+  type: Sensor
+CinCECGTorso:
+  length: '1639'
+  num_classes: 4
+  test: 1380
+  train: 40
+  type: Sensor
+Coffee:
+  length: '286'
+  num_classes: 2
+  test: 28
+  train: 28
+  type: Spectro
+Computers:
+  length: '720'
+  num_classes: 2
+  test: 250
+  train: 250
+  type: Device
+CricketX:
+  length: '300'
+  num_classes: 12
+  test: 390
+  train: 390
+  type: Motion
+CricketY:
+  length: '300'
+  num_classes: 12
+  test: 390
+  train: 390
+  type: Motion
+CricketZ:
+  length: '300'
+  num_classes: 12
+  test: 390
+  train: 390
+  type: Motion
+Crop:
+  length: '46'
+  num_classes: 24
+  test: 16800
+  train: 7200
+  type: Image
+DiatomSizeReduction:
+  length: '345'
+  num_classes: 4
+  test: 306
+  train: 16
+  type: Image
+DistalPhalanxOutlineAgeGroup:
+  length: '80'
+  num_classes: 3
+  test: 139
+  train: 400
+  type: Image
+DistalPhalanxOutlineCorrect:
+  length: '80'
+  num_classes: 2
+  test: 276
+  train: 600
+  type: Image
+DistalPhalanxTW:
+  length: '80'
+  num_classes: 6
+  test: 139
+  train: 400
+  type: Image
+DodgerLoopDay:
+  length: '288'
+  num_classes: 7
+  test: 80
+  train: 78
+  type: Sensor
+DodgerLoopGame:
+  length: '288'
+  num_classes: 2
+  test: 138
+  train: 20
+  type: Sensor
+DodgerLoopWeekend:
+  length: '288'
+  num_classes: 2
+  test: 138
+  train: 20
+  type: Sensor
+ECG200:
+  length: '96'
+  num_classes: 2
+  test: 100
+  train: 100
+  type: ECG
+ECG5000:
+  length: '140'
+  num_classes: 5
+  test: 4500
+  train: 500
+  type: ECG
+ECGFiveDays:
+  length: '136'
+  num_classes: 2
+  test: 861
+  train: 23
+  type: ECG
+EOGHorizontalSignal:
+  length: '1250'
+  num_classes: 12
+  test: 362
+  train: 362
+  type: EOG
+EOGVerticalSignal:
+  length: '1250'
+  num_classes: 12
+  test: 362
+  train: 362
+  type: EOG
+Earthquakes:
+  length: '512'
+  num_classes: 2
+  test: 139
+  train: 322
+  type: Sensor
+ElectricDevices:
+  length: '96'
+  num_classes: 7
+  test: 7711
+  train: 8926
+  type: Device
+EthanolLevel:
+  length: '1751'
+  num_classes: 4
+  test: 500
+  train: 504
+  type: Spectro
+FaceAll:
+  length: '131'
+  num_classes: 14
+  test: 1690
+  train: 560
+  type: Image
+FaceFour:
+  length: '350'
+  num_classes: 4
+  test: 88
+  train: 24
+  type: Image
+FacesUCR:
+  length: '131'
+  num_classes: 14
+  test: 2050
+  train: 200
+  type: Image
+FiftyWords:
+  length: '270'
+  num_classes: 50
+  test: 455
+  train: 450
+  type: Image
+Fish:
+  length: '463'
+  num_classes: 7
+  test: 175
+  train: 175
+  type: Image
+FordA:
+  length: '500'
+  num_classes: 2
+  test: 1320
+  train: 3601
+  type: Sensor
+FordB:
+  length: '500'
+  num_classes: 2
+  test: 810
+  train: 3636
+  type: Sensor
+FreezerRegularTrain:
+  length: '301'
+  num_classes: 2
+  test: 2850
+  train: 150
+  type: Sensor
+FreezerSmallTrain:
+  length: '301'
+  num_classes: 2
+  test: 2850
+  train: 28
+  type: Sensor
+Fungi:
+  length: '201'
+  num_classes: 18
+  test: 186
+  train: 18
+  type: HRM
+GestureMidAirD1:
+  length: Vary
+  num_classes: 26
+  test: 130
+  train: 208
+  type: Trajectory
+GestureMidAirD2:
+  length: Vary
+  num_classes: 26
+  test: 130
+  train: 208
+  type: Trajectory
+GestureMidAirD3:
+  length: Vary
+  num_classes: 26
+  test: 130
+  train: 208
+  type: Trajectory
+GesturePebbleZ1:
+  length: Vary
+  num_classes: 6
+  test: 172
+  train: 132
+  type: Sensor
+GesturePebbleZ2:
+  length: Vary
+  num_classes: 6
+  test: 158
+  train: 146
+  type: Sensor
+GunPoint:
+  length: '150'
+  num_classes: 2
+  test: 150
+  train: 50
+  type: Motion
+GunPointAgeSpan:
+  length: '150'
+  num_classes: 2
+  test: 316
+  train: 135
+  type: Motion
+GunPointMaleVersusFemale:
+  length: '150'
+  num_classes: 2
+  test: 316
+  train: 135
+  type: Motion
+GunPointOldVersusYoung:
+  length: '150'
+  num_classes: 2
+  test: 315
+  train: 136
+  type: Motion
+Ham:
+  length: '431'
+  num_classes: 2
+  test: 105
+  train: 109
+  type: Spectro
+HandOutlines:
+  length: '2709'
+  num_classes: 2
+  test: 370
+  train: 1000
+  type: Image
+Haptics:
+  length: '1092'
+  num_classes: 5
+  test: 308
+  train: 155
+  type: Motion
+Herring:
+  length: '512'
+  num_classes: 2
+  test: 64
+  train: 64
+  type: Image
+HouseTwenty:
+  length: '2000'
+  num_classes: 2
+  test: 119
+  train: 40
+  type: Device
+InlineSkate:
+  length: '1882'
+  num_classes: 7
+  test: 550
+  train: 100
+  type: Motion
+InsectEPGRegularTrain:
+  length: '601'
+  num_classes: 3
+  test: 249
+  train: 62
+  type: EPG
+InsectEPGSmallTrain:
+  length: '601'
+  num_classes: 3
+  test: 249
+  train: 17
+  type: EPG
+InsectWingbeatSound:
+  length: '256'
+  num_classes: 11
+  test: 1980
+  train: 220
+  type: Sensor
+ItalyPowerDemand:
+  length: '24'
+  num_classes: 2
+  test: 1029
+  train: 67
+  type: Sensor
+LargeKitchenAppliances:
+  length: '720'
+  num_classes: 3
+  test: 375
+  train: 375
+  type: Device
+Lightning2:
+  length: '637'
+  num_classes: 2
+  test: 61
+  train: 60
+  type: Sensor
+Lightning7:
+  length: '319'
+  num_classes: 7
+  test: 73
+  train: 70
+  type: Sensor
+Mallat:
+  length: '1024'
+  num_classes: 8
+  test: 2345
+  train: 55
+  type: Simulated
+Meat:
+  length: '448'
+  num_classes: 3
+  test: 60
+  train: 60
+  type: Spectro
+MedicalImages:
+  length: '99'
+  num_classes: 10
+  test: 760
+  train: 381
+  type: Image
+MelbournePedestrian:
+  length: '24'
+  num_classes: 10
+  test: 2439
+  train: 1194
+  type: Traffic
+MiddlePhalanxOutlineAgeGroup:
+  length: '80'
+  num_classes: 3
+  test: 154
+  train: 400
+  type: Image
+MiddlePhalanxOutlineCorrect:
+  length: '80'
+  num_classes: 2
+  test: 291
+  train: 600
+  type: Image
+MiddlePhalanxTW:
+  length: '80'
+  num_classes: 6
+  test: 154
+  train: 399
+  type: Image
+MixedShapesRegularTrain:
+  length: '1024'
+  num_classes: 5
+  test: 2425
+  train: 500
+  type: Image
+MixedShapesSmallTrain:
+  length: '1024'
+  num_classes: 5
+  test: 2425
+  train: 100
+  type: Image
+MoteStrain:
+  length: '84'
+  num_classes: 2
+  test: 1252
+  train: 20
+  type: Sensor
+NonInvasiveFetalECGThorax1:
+  length: '750'
+  num_classes: 42
+  test: 1965
+  train: 1800
+  type: ECG
+NonInvasiveFetalECGThorax2:
+  length: '750'
+  num_classes: 42
+  test: 1965
+  train: 1800
+  type: ECG
+OSULeaf:
+  length: '427'
+  num_classes: 6
+  test: 242
+  train: 200
+  type: Image
+OliveOil:
+  length: '570'
+  num_classes: 4
+  test: 30
+  train: 30
+  type: Spectro
+PLAID:
+  length: Vary
+  num_classes: 11
+  test: 537
+  train: 537
+  type: Device
+PhalangesOutlinesCorrect:
+  length: '80'
+  num_classes: 2
+  test: 858
+  train: 1800
+  type: Image
+Phoneme:
+  length: '1024'
+  num_classes: 39
+  test: 1896
+  train: 214
+  type: Sensor
+PickupGestureWiimoteZ:
+  length: Vary
+  num_classes: 10
+  test: 50
+  train: 50
+  type: Sensor
+PigAirwayPressure:
+  length: '2000'
+  num_classes: 52
+  test: 208
+  train: 104
+  type: Hemodynamics
+PigArtPressure:
+  length: '2000'
+  num_classes: 52
+  test: 208
+  train: 104
+  type: Hemodynamics
+PigCVP:
+  length: '2000'
+  num_classes: 52
+  test: 208
+  train: 104
+  type: Hemodynamics
+Plane:
+  length: '144'
+  num_classes: 7
+  test: 105
+  train: 105
+  type: Sensor
+PowerCons:
+  length: '144'
+  num_classes: 2
+  test: 180
+  train: 180
+  type: Power
+ProximalPhalanxOutlineAgeGroup:
+  length: '80'
+  num_classes: 3
+  test: 205
+  train: 400
+  type: Image
+ProximalPhalanxOutlineCorrect:
+  length: '80'
+  num_classes: 2
+  test: 291
+  train: 600
+  type: Image
+ProximalPhalanxTW:
+  length: '80'
+  num_classes: 6
+  test: 205
+  train: 400
+  type: Image
+RefrigerationDevices:
+  length: '720'
+  num_classes: 3
+  test: 375
+  train: 375
+  type: Device
+Rock:
+  length: '2844'
+  num_classes: 4
+  test: 50
+  train: 20
+  type: Spectrum
+ScreenType:
+  length: '720'
+  num_classes: 3
+  test: 375
+  train: 375
+  type: Device
+SemgHandGenderCh2:
+  length: '1500'
+  num_classes: 2
+  test: 600
+  train: 300
+  type: Spectrum
+SemgHandMovementCh2:
+  length: '1500'
+  num_classes: 6
+  test: 450
+  train: 450
+  type: Spectrum
+SemgHandSubjectCh2:
+  length: '1500'
+  num_classes: 5
+  test: 450
+  train: 450
+  type: Spectrum
+ShakeGestureWiimoteZ:
+  length: Vary
+  num_classes: 10
+  test: 50
+  train: 50
+  type: Sensor
+ShapeletSim:
+  length: '500'
+  num_classes: 2
+  test: 180
+  train: 20
+  type: Simulated
+ShapesAll:
+  length: '512'
+  num_classes: 60
+  test: 600
+  train: 600
+  type: Image
+SmallKitchenAppliances:
+  length: '720'
+  num_classes: 3
+  test: 375
+  train: 375
+  type: Device
+SmoothSubspace:
+  length: '15'
+  num_classes: 3
+  test: 150
+  train: 150
+  type: Simulated
+SonyAIBORobotSurface1:
+  length: '70'
+  num_classes: 2
+  test: 601
+  train: 20
+  type: Sensor
+SonyAIBORobotSurface2:
+  length: '65'
+  num_classes: 2
+  test: 953
+  train: 27
+  type: Sensor
+StarLightCurves:
+  length: '1024'
+  num_classes: 3
+  test: 8236
+  train: 1000
+  type: Sensor
+Strawberry:
+  length: '235'
+  num_classes: 2
+  test: 370
+  train: 613
+  type: Spectro
+SwedishLeaf:
+  length: '128'
+  num_classes: 15
+  test: 625
+  train: 500
+  type: Image
+Symbols:
+  length: '398'
+  num_classes: 6
+  test: 995
+  train: 25
+  type: Image
+SyntheticControl:
+  length: '60'
+  num_classes: 6
+  test: 300
+  train: 300
+  type: Simulated
+ToeSegmentation1:
+  length: '277'
+  num_classes: 2
+  test: 228
+  train: 40
+  type: Motion
+ToeSegmentation2:
+  length: '343'
+  num_classes: 2
+  test: 130
+  train: 36
+  type: Motion
+Trace:
+  length: '275'
+  num_classes: 4
+  test: 100
+  train: 100
+  type: Sensor
+TwoLeadECG:
+  length: '82'
+  num_classes: 2
+  test: 1139
+  train: 23
+  type: ECG
+TwoPatterns:
+  length: '128'
+  num_classes: 4
+  test: 4000
+  train: 1000
+  type: Simulated
+UMD:
+  length: '150'
+  num_classes: 3
+  test: 144
+  train: 36
+  type: Simulated
+UWaveGestureLibraryAll:
+  length: '945'
+  num_classes: 8
+  test: 3582
+  train: 896
+  type: Motion
+UWaveGestureLibraryX:
+  length: '315'
+  num_classes: 8
+  test: 3582
+  train: 896
+  type: Motion
+UWaveGestureLibraryY:
+  length: '315'
+  num_classes: 8
+  test: 3582
+  train: 896
+  type: Motion
+UWaveGestureLibraryZ:
+  length: '315'
+  num_classes: 8
+  test: 3582
+  train: 896
+  type: Motion
+Wafer:
+  length: '152'
+  num_classes: 2
+  test: 6164
+  train: 1000
+  type: Sensor
+Wine:
+  length: '234'
+  num_classes: 2
+  test: 54
+  train: 57
+  type: Spectro
+WordSynonyms:
+  length: '270'
+  num_classes: 25
+  test: 638
+  train: 267
+  type: Image
+Worms:
+  length: '900'
+  num_classes: 5
+  test: 77
+  train: 181
+  type: Motion
+WormsTwoClass:
+  length: '900'
+  num_classes: 2
+  test: 77
+  train: 181
+  type: Motion
+Yoga:
+  length: '426'
+  num_classes: 2
+  test: 3000
+  train: 300
+  type: Image
